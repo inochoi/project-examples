@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipeline.zip",
-      "target": "libs-snapshot-local",
+      "pattern": "jenkins-examples/pipeline-examples/resources/sbt_example_2.11-1.1-SNAPSHOT-sources.jar",
+      "target": "sbt-dev-local",
       "props": "p1=v1;p2=v2"
     },
     {
-      "pattern": "jenkins-examples/pipeline-examples/resources/ArtifactoryPipelineNoProps.zip",
-      "target": "libs-snapshot-local"
+      "pattern": "jenkins-examples/pipeline-examples/resources/sbt_example_2.11-1.1-SNAPSHOT.jar",
+      "target": "sbt-dev-local"
     }
   ]
 }
